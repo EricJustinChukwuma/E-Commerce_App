@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.nav-bar {
+    width: 100%;
+    background: cyan;
+    height: 103px;
+    margin-top: 30px;
+}
+
+.nav-bar .texture {
+    width: 100%;
+    min-width: 100vw;
+    height: 103px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    /*transform: skew(-20deg);*/
+}
+
+@media screen and (max-width: 720px) {
+    .nav-bar .texture {
+        width: 96%;
+    }
+}
+
+.nav-bar ul {
+    float: left;
+    padding: 40px;
+    margin-left: 500px;
+    /*padding-top: 40px;
+    padding-bottom: 40px;*/
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+
+span {
+    font-size: 70px;
+    margin:auto;
+    margin-left: 70px;
+    float: left;
+}
+
+#middle {
+    width: 97%;
+    height: 70vh;
+    background-color: cyan;
+    display: inline-flex;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+#middle .left {
+    width: 16%;
+    background-color:rgb(1, 26, 38);
+    text-decoration: none;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+#middle .left li {
+    list-style: none;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#middle .left li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#middle .left li a:hover {
+    color: gold;
+}
+
+/*---- Style The middle-right side ----*/
+
+#middle .right {
+    width: 85%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#middle .right p {
+    color: rgb(143, 142, 142);
+    margin-bottom: 0px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(1, 26, 38);
+}

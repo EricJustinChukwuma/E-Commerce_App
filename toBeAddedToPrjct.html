@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'spartan', sans-serif;
+        }
+
+        h1 {
+            font-size: 50px;
+            line-height: 64px;
+            color: #222;
+        }
+
+        h2 {
+            font-size: 46px;
+            line-height: 54px;
+            color: #222;
+        }
+
+        h4 {
+            font-size: 20px;
+            line-height: 45px;
+            color: #222;
+        }
+
+        h6 {
+            font-weight: 700;
+            font-size: 12px;
+        }
+
+        p {
+            font-size: 16px;
+            margin: 15px 0px 20px 0px;
+            color: #465b52;
+        }
+
+        .section-p1 {
+            padding: 40px 80px;
+        }
+
+        .section-m1 {
+            margin: 40px 0px;
+        }
+
+        button.normal {
+            font-size: 13px;
+            font-weight: 600;
+            padding: 11px 25px;
+            color: #fff;
+            background-color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            transition: all ease .3s;
+        }
+
+        button.white {
+            font-size: 14px;
+            font-weight: 600;
+            padding: 11px 18px;
+            color: #fff;
+            background-color: transparent;
+            cursor: pointer;
+            border: 1px solid #fff;
+            outline: none;
+            transition: all ease .3s;
+        }
+
+        body {
+            width: 100%;
+        }
+        /*---product-des----*/
+        #products-des {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            height: 100vh;
+        }
+        #products-des .products-pic {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+        }
+        #products-des .products-pic .pro-display {
+            height: 80vh;
+            width: 450px;
+            margin-bottom: 5px;
+        }
+        #products-des .products-pic .pic-change img{
+            height: 110px;
+            width: 105px;
+        }
+        #products-des .products-pic .pic-change {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .right {
+            padding: 20px 0 20px 20px;
+            height: 80vh;
+            height: 100vh;
+        }
+        .right h6 {
+            font-size: 14px;
+            margin-top: 0px;
+            margin-bottom: 20px;
+            color: #222;
+            font-weight: 700;
+            padding-top: 20px;
+        }
+        .right h4 {
+            font-size: 20px;
+            margin-bottom: 7px;
+        }
+        .right h1 {
+            font-size: 26px;
+        }
+        .right select {
+            font-size: 13px;
+            color: #606063;
+            padding: 5px 15px;
+            margin-bottom: 10px;
+        }
+        .right .buy {
+            margin-bottom: 20px;
+        }
+        .right .buy button {
+            background-color: #088178;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 700;
+            border: none;
+            padding: 13px 25px;
+            border-radius: 4px;
+            margin-left: 5px;
+        }
+        .right p {
+            line-height: 1.7;
+        }
+    </style>
+</head>
+<body>
+    <section id="products-des" class="section-p1 section-m1">
+        <div class="products-pic">
+            <image class="pro-display" src="image/ella-don-0oqMvhc1ntw-unsplash.jpg" alt="">
+            <div class="pic-change">
+                <image src="image/ella-don-0oqMvhc1ntw-unsplash.jpg" alt="">
+                <image src="image/ella-don-0oqMvhc1ntw-unsplash.jpg" alt="">
+                <image src="image/ella-don-0oqMvhc1ntw-unsplash.jpg" alt="">
+                <image src="image/ella-don-0oqMvhc1ntw-unsplash.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="right">
+            <h6>Home / T-Shirts</h6>
+            <h4>Men's Fashion and T Shirt</h4>
+            <h1>$139.00</h1>
+            <select>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="extra-large">Extra-Large</option>
+                <option value="XX-large">XX Large</option>
+            </select>
+            <div class="buy">
+                <select></select>
+                <button type="button">Add To Cart</button>
+            </div>
+            <h4>Product Details</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor maiores, ipsum sequi nisi fugit laboriosam quam commodi perferendis itaque laudantium explicabo et iste tempore odio dolores facilis est unde libero ullam laborum. Laboriosam alias numquam quo eaque veritatis nam veniam, aperiam iusto at enim consequuntur est quasi animi fugiat optio rem quod saepe quas, quae voluptates nobis ad ullam. Earum.</p>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'spartan', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 45px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    margin: 15px 0px 20px 0px;
+    color: #465b52;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+.section-m1 {
+    margin: 40px 0px;
+}
+body {
+    width: 100%;
+}
+button.normal {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 25px;
+    color: #fff;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all ease .3s;
+}
+button.white {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: all ease .3s;
+}
+
+/*------ The Shop Page Banner Starts Here -------*/
+#banner1 {
+    background-image: url("../image/alexander-andrews.jpg");
+    background-position: top 40% right 45%;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner1 h2 {
+    color: #fff;
+    font-size: 52px;
+}
+
+#banner1 p {
+    color: #868687;
+    font-size: 17px;
+    word-spacing: 2px;
+}
+
+/*------ The Product Page starts now ------*/
+#product1 {
+    text-align: center;
+}
+#product1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+#product1 .pro-container .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 15px 0px;
+    box-shadow: 20px 20px 30px rgba(11, 11, 11, 0.12);
+    position: relative;
+    transition: all ease .3s;
+}
+#product1 .pro-container .pro:hover  {
+    box-shadow: 20px 20px 32px rgba(0, 0, 0, 0.32);
+}
+#product1 .pro-container .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+#product1 .pro-container .pro .des {
+    text-align: start;
+    padding-top: 10px;
+}
+#product1 .pro-container .pro span {
+    color: #606063;
+    font-size: 13px;
+}
+#product1 .pro-container h5 {
+    color: #1a1a1a;
+    font-size: 15px;
+    padding-top: 7px;
+}
+#product1 .pro-container h4 {
+    color: #088178;
+    font-size: 16px;
+    font-weight: 700px;
+}
+#product1 .pro-container .des i {
+    color: rgba(234,181, 25);
+    font-size: 13px;
+}
+#product1 .pro-container .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #949595;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+/*-------- The directions page starts here --------*/
+#next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+#next button {
+    color: #fff;
+    background-color: #088178;
+    padding: 25px 30px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/*------- NewsLetter -------*/
+#newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url("../image/d-a-v-i-d-s-o-n-l-u-n-a--fT2VvIp-uU-unsplash.jpg");
+    background-size: cover;
+    background-position: top 20% left 75%;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+#newsletter h4 {
+    color: #949595;
+    font-size: 22px;
+    font-weight: 700;
+}
+#newsletter p {
+    color: #949595;
+    font-size: 14px;
+    font-weight: 600;
+}
+#newsletter p span {
+    color: #ffbd27;
+}
+#newsletter .form {
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+#newsletter input {
+    height: 2.425rem;
+    width: 100%;
+    padding: 0 1.25em;
+    border: 1px solid transparent;
+    font-size: 14px;
+    outline: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #222;
+}
+#newsletter button {
+    height: 2.425rem;
+    color: #fff;
+    white-space: nowrap;
+    background-color: #088178;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: none;
+}

@@ -1,0 +1,18 @@
+@media only screen and (max-width: 728px) {
+    nav div .logo {
+        margin-left: 20px;
+    }
+    nav ul {
+        padding-left: 50px;
+    }
+    nav ul li {
+        margin-left: 10px;
+    }
+    nav ul li a {
+        font-size: 18px
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+}
